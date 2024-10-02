@@ -148,6 +148,10 @@ export { MustachePlugin } from "./plugins/MustachePlugin";
 export { MustachePickerPlugin } from "./plugins/MustachePickerPlugin";
 export { MentionHint } from "./plugins/MentionHint";
 export { TreeViewPlugin } from "./plugins/TreeViewPlugin";
+export { DocsPlugin } from "./plugins/DocsPlugin";
+export { PasteLogPlugin } from "./plugins/PasteLogPlugin";
+export { TestRecorderPlugin } from "./plugins/TestRecorderPlugin";
+export { TypingPerfPlugin } from "./plugins/TypingPerfPlugin";
 
 // Utils`
 export { getSelectedNode } from "./utils/getSelectedNode";
@@ -156,4 +160,11 @@ export { convertHtmlToNodes } from "./utils/convertHtmlToNodes";
 export { getDOMRangeRect } from "./utils/getDOMRangeRect";
 
 // Context
-export { FlashMessageContext } from "./context/FlashMessageContext";
+export { FlashMessageContext, useFlashMessageContext } from "./context/FlashMessageContext";
+export { SettingsContext, useSettings } from "./context/SettingsContext";
+export { SharedAutocompleteContext, useSharedAutocompleteContext } from "./context/SharedAutocompleteContext";
+export { SharedHistoryContext, useSharedHistoryContext } from "./context/SharedHistoryContext";
+
+// Lexical
+export { LexicalComposer } from '@lexical/react/LexicalComposer';
+export { useLexicalComposerContext } from '@lexical/react/LexicalComposerContext';

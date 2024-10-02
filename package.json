@@ -19,7 +19,8 @@
     "start-playground": "npm run dev --prefix packages/playground",
     "build-core": "tsc",
     "build-core1": "tsc && copyfiles 'packages/core/index.css' packages/core/dist/ && copyfiles -f 'packages/core/**/*.css' '!packages/core/index.css' packages/core/dist/css",
-    "watch-core": "tsc -w"
+    "watch-core": "tsc -w",
+    "build": "webpack --config webpack.config.js"
   },
   "workspaces": [
     "packages/*"
@@ -31,8 +32,16 @@
     "@types/react-bootstrap": "^0.32.30",
     "concat": "^1.0.3",
     "copyfiles": "^2.4.1",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "postcss-loader": "^8.1.1",
     "prettier": "^3.2.5",
-    "prettier-plugin-tailwindcss": "^0.5.13"
+    "prettier-plugin-tailwindcss": "^0.5.13",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.6.2",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4"
   },
   "dependencies": {
     "@lexical/file": "^0.17.1",

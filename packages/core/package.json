@@ -14,7 +14,8 @@
   "main": "LexicalToolkit.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist/**/*"
+    "dist/**/*",
+    "dist/index.css"
   ],
   "repository": {
     "type": "git",
@@ -28,7 +29,8 @@
     "typescript": "^5.4.3"
   },
   "peerDependencies": {
-    "@lexical/react": "^0.14.2",
-    "lexical": "^0.14.2"
+    "@lexical/react": "0.17.1",
+    "lexical": "0.17.1",
+    "katex": "0.16.11"
   }
 }

@@ -1,0 +1,48 @@
+.ContentEditable__root {
+  border: 0;
+  font-size: 16px;
+  line-height: 21px;
+  display: block;
+  position: relative;
+  outline: 0;
+}
+@media (max-width: 1025px) {
+  .ContentEditable__root {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+.ContentEditable__root_inputMode {
+  padding: 0;
+}
+.ContentEditable__root_rte {
+  padding: 8px 28px 0px;
+}
+
+.ContentEditable__placeholder {
+  font-size: 16px;
+  line-height: 21px;
+  color: #999;
+  overflow: hidden;
+  position: absolute;
+  text-overflow: ellipsis;
+  top: 8px;
+  left: 28px;
+  right: 28px;
+  user-select: none;
+  white-space: nowrap;
+  display: inline-block;
+  pointer-events: none;
+}
+@media (max-width: 1025px) {
+  .ContentEditable__placeholder {
+    left: 8px;
+    right: 8px;
+  }
+}
+
+.ContentEditable__placeholder_inputMode {
+  left: 2px;
+  top: 0px
+}

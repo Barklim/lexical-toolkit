@@ -6,7 +6,7 @@ import { RichTextPlugin } from "@lexical/react/LexicalRichTextPlugin";
 import LexicalErrorBoundary from "@lexical/react/LexicalErrorBoundary";
 import { RTE_INITIAL_CONFIG } from "./config";
 import { Toolbar } from "./Toolbar";
-import "./theme.css";
+// import "./theme.css";
 import { HyperlinkPlugin, KeywordPlugin } from "lexical-toolkit";
 import { TabIndentationPlugin } from "@lexical/react/LexicalTabIndentationPlugin";
 import { ListPlugin } from "@lexical/react/LexicalListPlugin";
@@ -77,6 +77,7 @@ export const RichTextEditor = (props: RichTextEditorProps) => {
               "Happy birthday",
             ]}
           />
+          <Emoji
 
           <TabIndentationPlugin />
           <HistoryPlugin />

@@ -168,3 +168,6 @@ export { SharedHistoryContext, useSharedHistoryContext } from "./context/SharedH
 // Lexical
 export { LexicalComposer } from '@lexical/react/LexicalComposer';
 export { useLexicalComposerContext } from '@lexical/react/LexicalComposerContext';
+
+// App
+export { LexicalApp } from "./app/App";

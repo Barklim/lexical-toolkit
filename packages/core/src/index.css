@@ -1,4 +1,7 @@
 /* @import './ImageNode.css'; */
-@import './ui/Button.css';
+/* @import './ui/Button.css';
 @import './ui/ColorPicker.css';
-@import './ui/ColorPicker1.css';
+@import './ui/ColorPicker1.css'; */
+div {
+    border: 1px solid red;
+}
